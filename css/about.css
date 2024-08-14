@@ -56,6 +56,10 @@
     .team-member {
         width: 45%;
     }
+
+    .charts {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
