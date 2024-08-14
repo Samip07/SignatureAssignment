@@ -1,0 +1,26 @@
+.container {
+    padding: 2rem;
+}
+
+h1 {
+    width: max-content;
+    margin: 0 auto;
+}
+
+h3 {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+table {
+    width: 100vw;
+}
+
+table tr:nth-child(odd) td {
+    background-color: white;
+}
+
+table tr:nth-child(even) td {
+    background-color: whitesmoke;
+}
