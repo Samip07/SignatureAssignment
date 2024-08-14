@@ -61,3 +61,27 @@ h2 {
 .btn:hover {
     background-color: var(--btn-secondary);
 }
+
+
+
+
+
+/* Responsive design */
+
+@media screen and (max-width: 1080px) {
+    .container .box {}
+}
+
+
+@media screen and (max-width: 450px) {
+    .container .box {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .flex-all-center {
+        align-items: flex-start;
+    }
+}
